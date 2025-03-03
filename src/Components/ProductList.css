@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.inner-container {
+    flex-basis: calc(33.33% - 10px);
+    box-sizing: border-box; 
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+.inner-container img {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0ic;
+    border: 2px solid gainsboro;
+    filter: brightness(70%);
+}
+/* 
+p {
+    margin: 0; 
+    padding: 5px 0;
+} */
+.inner-container button{
+    width: 300px;
+    border-radius: 10px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid black;
+    background: blueviolet;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.discountprice{
+    margin-left: 124px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.price p{
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.line2{
+    width: 36px;
+    position: absolute;
+    margin-top: 10px;
+    height: 1px;
+    color: black;
+    border: 1px solid black;
+    margin-left: 196px;
+    transform: rotate(15deg);
+    transform-origin: center;
+}
+.itemName p{
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}

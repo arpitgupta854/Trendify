@@ -1,0 +1,41 @@
+.checkout-container{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin-top: 20px;
+   box-shadow: #f1f1f1;
+   border-radius: 10px;
+   width: 400px;
+   margin-left: 36%;
+   text-align: center;
+   background-color: rgb(198, 226, 250);
+}
+.checkout-details img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+
+}
+.checkout-container h2{
+   padding-top: 12px;
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+.checkout-container h3{
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+.checkout-container p{
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+.checkout-container button{
+    background-color: blueviolet;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
