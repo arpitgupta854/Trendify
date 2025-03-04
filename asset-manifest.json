@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Trendify/static/css/main.e9bbbbe9.css",
-    "main.js": "/Trendify/static/js/main.f54dc3ce.js",
+    "main.js": "/Trendify/static/js/main.bee1e3c3.js",
     "static/js/453.7a718051.chunk.js": "/Trendify/static/js/453.7a718051.chunk.js",
     "index.html": "/Trendify/index.html",
     "main.e9bbbbe9.css.map": "/Trendify/static/css/main.e9bbbbe9.css.map",
-    "main.f54dc3ce.js.map": "/Trendify/static/js/main.f54dc3ce.js.map",
+    "main.bee1e3c3.js.map": "/Trendify/static/js/main.bee1e3c3.js.map",
     "453.7a718051.chunk.js.map": "/Trendify/static/js/453.7a718051.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9bbbbe9.css",
-    "static/js/main.f54dc3ce.js"
+    "static/js/main.bee1e3c3.js"
   ]
 }
