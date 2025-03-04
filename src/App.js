@@ -7,12 +7,14 @@ import CheckoutPage from "./Components/CheckoutPage";
 
 function App() {
   return (
+    <Router basename="/Trendify"> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products/:category" element={<ProductList />} />
         <Route path="/products/:category/:id" element={<ProductDetails />} />
         <Route path="/checkout" element={<CheckoutPage />} />
       </Routes>
+    </Router>
   );
 }
 
