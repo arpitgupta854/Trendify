@@ -1,0 +1,85 @@
+.About-us-section {
+    display: flex;
+    justify-content: center;
+    margin: 5% 1%;
+    text-align: center;
+    position: relative;
+}
+
+.a-img {
+    position: relative;
+}
+
+.a-img img {
+    width: 1450px;
+    max-width: 1500px;
+    height: 450px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.a-img video{
+    width: 1450px;
+    max-width: 1500px;
+    height: 900px;
+    border-radius: 30px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.written-Aboutus-section {
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    width: 49%;
+    text-align: center;
+    padding: 20px;
+}
+
+.written-Aboutus-section h1 {
+    font-size: 3.5rem;
+    color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.written-Aboutus-section p {
+    font-size: 1.5rem;
+    color: rgb(14, 14, 14);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15px;
+}
+
+.written-Aboutus-section button {
+    width: 200px;
+    height: 60px;
+    margin-top: 25px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+
+/* Container that holds the sliding images */
+.featured {
+    width: 100%; /* Adjust to the container's size */
+    position: relative;
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+}
+.featured-img img {
+    width: 300px; /* Image width */
+    height: 100px; /* Image height */
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
