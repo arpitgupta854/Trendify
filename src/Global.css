@@ -239,4 +239,16 @@
 .checkout-container{
     margin-left: 0px;
 }
+.right-upper-container1 {
+  margin-top: 179px;
+  margin-left: -195px;
+  margin-right: 20px;
+}
+.video-player{
+  width: 200px;
+  height: 138px;
+}
+.model-container{
+  width: 75%;
+}
 }
