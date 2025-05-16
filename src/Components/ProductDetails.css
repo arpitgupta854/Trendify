@@ -1,0 +1,139 @@
+.container{
+    /* margin-right: 120px; */
+    justify-content: center;
+    cursor: pointer;
+}
+.discountprice{
+    margin-left: 124px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.price p{
+    font-size:1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.line{
+    width: 49px;
+    position: absolute;
+    margin-top: 10px;
+    height: 1px;
+    color: black;
+    border: 1px solid black;
+    margin-left: 208px;
+    transform: rotate(15deg);
+    transform-origin: center;
+}
+.product-description button{
+    width: 300px;
+    border-radius: 10px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid black;
+    background: blueviolet;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.upper-section {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.inner-images img{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blueviolet;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-right: 40px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.images img{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0cqb;
+    filter: brightness(80%);
+    margin-right: 60px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.product-description{
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.product-description p{
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+.price1{
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding-right: 12px;
+}
+.product-Name p{
+    margin-left: -399px;
+}
+.discountprice1{
+    margin-right: 15px;
+}
+.original-price1 p{
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: gray;
+    position: relative;
+}
+.line1{
+    width: 50px;
+    border: 1px solid grey;
+    height: 1px;
+    margin-right: 2px;
+    margin-left: -47px;
+    margin-top: 14px;
+    transform: rotate(16deg);
+}
+.product-container{
+    justify-content: center;
+    margin-top: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+.inner-product-container img{
+    width: 150px;
+    height: 150px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.button1 {
+    text-align: center;
+    cursor: pointer;
+}
+.product-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Ensures children are horizontally centered */
+    text-align: center;
+    margin-top: 12px;
+}
+
+.product-image img {
+    width: 1100px;
+    height: 600px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+}

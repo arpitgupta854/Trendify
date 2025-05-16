@@ -1,0 +1,242 @@
+@media screen and (max-width: 433px) {
+    #root{
+        overflow-x: hidden;
+        position: sticky;
+    }
+  .first-order h2 {
+    font-size: 14px;
+  }
+  .Navbar {
+    flex-direction: column; /* stack items vertically */
+    align-items: center;
+    font-size: 14px;
+  }
+  .Navbar-logo {
+    width: 40px;
+    height: 40px;
+  }
+  .nav-items-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .search-box input {
+    width: 120px;
+  }
+  .search-icon {
+    margin-left: 100px;
+  }
+  .nav-items li {
+   font-size: 12px;
+}
+.slider-image{
+    width: 100%;
+    height: 180px;
+}
+.slider{
+    height: 200px;
+}
+.slide-show{
+    margin-top: -42px;
+}
+.deal-of-day img{
+    height: 250px;
+}
+.shop-now1 p {
+  font-size: 0.8rem;
+}
+.inner-html{
+    margin-left: -45px;
+}
+.center-lower-part img {
+  height: 242px;
+}
+.heading h1 {
+  margin-left: 8px;
+  font-size: 1.5rem;
+}
+.search-by-categories-container{
+    flex-direction: column;
+}
+.latest-container{
+    flex-direction: column;
+}
+.right-image-upper{
+    flex-direction: column;
+}
+.right-image-down{
+    flex-direction: column;
+}
+.left-image-container img{
+    height: 350px;
+    width: 320px;
+    margin-left: 20px;
+}
+.search-by-categories-name p{
+    margin-left: 7%
+}
+.latest-container{
+    display: none;
+}
+.new-launches h1{
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+.new-launch-data{
+    margin-left: 30px;
+}
+.button-best-saling{
+    display: none;
+}
+.a-img img{
+    width: 100%;
+    height: 300px;
+}
+.written-Aboutus-section{
+    margin-left: 20px;
+}
+    .written-Aboutus-section p{
+        font-size: 0.8rem;
+    }
+    .written-Aboutus-section h1{
+        font-size: 1.5rem;
+    }
+    .written-Aboutus-section button{
+        font-size: 1.2rem;
+        height: 49px;
+        width: 137px;
+    }
+    .a-img-1 img{
+        width: 397px;
+    }
+    .a-img-1 h1{
+        display: none;
+    }
+    .featured-img img {
+  width: 122px;
+  height: 58px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.a-img video {
+  width: 100%;
+  border-radius: 30px;
+  object-fit: cover;
+  cursor: pointer;
+  height: 266px;
+}
+.social-media {
+  margin-left: 12%;
+}
+.footer-upper-section{
+    flex-direction: column;
+}
+.footer-upper-left h1 {
+  color: white;
+  font-weight: 700;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+  margin-left: 20px;
+  margin-right: 56px;
+}
+.fullname1 {
+  width: 325px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 20px;
+  font-size: 1rem;
+}
+.fullname2 {
+  width: 333px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 20px;
+  font-size: 1rem;
+  margin-top: 12px;
+  position: relative;
+  margin-bottom: 71px;
+}
+.footer-lower-section{
+    display: none;
+}
+.footer-upper-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  background-color: #2e0a4e;
+  margin-top: 20px;
+  margin-bottom: -55px;
+}
+/* For mobile dropdowns */
+.dropdown-0,
+.dropdown-1,
+.dropdown-2,
+.dropdown-3,
+.dropdown-4 {
+  flex-direction: column;
+  position: absolute;
+  top: 100%; /* below the navbar item */
+  left: 0; /* align to left for mobile */
+  width: 100vw; /* full screen width */
+  background-color: white;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 50vh; /* allow scroll if items overflow */
+  border-radius: 0 0 8px 8px;
+}
+.upper-section {
+    flex-direction: column;
+}
+.inner-images{
+    display: none;
+}
+.images img {
+  width: 400px;
+  height: 400px;
+  box-shadow: 0cqb;
+  filter: brightness(80%);
+  margin-right: 60px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-left: 45px;
+  margin-top: -22px;
+}
+.product-description{
+    width: 400px;
+}
+.price1{
+    margin-left: 35%;
+}
+.product-Name{
+    margin-left: 114%;
+}
+.payment-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: none;
+}
+.payment-img button{
+    width: 100%;;
+}
+.inner-product-container{
+    width: 100%;
+}
+.button1 button{
+    width: 100%;
+    display: none;
+}
+.product-image img{
+    width: 100%;
+    height: 200px;
+}
+.checkout-container{
+    margin-left: 0px;
+}
+}
